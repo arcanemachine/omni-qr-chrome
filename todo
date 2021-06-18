@@ -1,3 +1,5 @@
+- improve url detection
+
 - qr code element style
   - no pointer events
   - set opacity
