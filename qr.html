@@ -3,9 +3,45 @@
   <head>
     <title>Omni QR Settings</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="popup.js"></script>
   </head>
   <body>
-    <div class="title">Options go here.</div>
+    <h1 class="title">Omni QR Display</h1>
+
+    <div class="settings-item-container-parent">
+
+      <div class="settings-item-container-child">
+        <div class="settings-item-description">
+          Enabled
+        </div>
+        <div class="settings-item-value">
+          <button id="extension-enabled">
+            Blah
+          </button>
+        </div>
+      </div>
+
+      <div class="settings-item-container-child">
+        <div class="settings-item-description">
+          Image Size
+        </div>
+        <div class="settings-item-value">
+          <select name="image-size" id="image-size">
+            <option value="100">1 (smallest)</option>
+            <option value="150">2</option>
+            <option value="200">3</option>
+            <option value="250">4</option>
+            <option value="300">5 (default)</option>
+            <option value="350">6</option>
+            <option value="400">7</option>
+            <option value="500">8</option>
+            <option value="600">9</option>
+            <option value="700">10 (largest)</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="popup.js"></script>
   </body>
 </html>

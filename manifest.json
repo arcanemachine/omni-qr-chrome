@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Omni QR Display",
   "description": "Always display the QR code of your current tab in a corner of the screen. Perfect for streaming web browser sessions!",
   "version": "0.0.1",
@@ -8,16 +8,24 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "icon16.png",
     "default_popup": "qr.html"
   },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
   "content_scripts": [{
     "matches": [
       "<all_urls>"
     ],
     "js": [
-      "code.js",
+      "content.js",
       "qrcode.min.js"
     ]
-  }] }
+  }],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

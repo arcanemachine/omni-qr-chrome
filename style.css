@@ -1,7 +1,29 @@
 body {
-  min-width: 10rem;
+  min-width: 15rem;
 }
 
-.title {
+h1 {
+  font-size: 1.2rem;
   text-align: center;
+}
+
+.settings-item-container-parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-item-container-child {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings-item-description {
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.settings-item-value {
+  margin-right: 1rem;
 }
