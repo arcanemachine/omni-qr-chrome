@@ -80,13 +80,13 @@ window.addEventListener('load', (event) => {
   qrEl.addEventListener('click', () => {
     temporarilyHideQrCode(qrEl);
   });
-})
 
-// update the QR code when the URL changes
-window.addEventListener('hashchange', function() { 
-  generateNewQrCode(document.querySelector('#omni-qr-element'));
-})
+  let currentPage = location.href;
+  setInterval(function() {
+    if (currentPage != location.href) {
+      currentPage = location.href;
+      generateNewQrCode(qrEl);
+    }
+  }, 3000);
 
-window.addEventListener('popstate', function() { 
-  generateNewQrCode(document.querySelector('#omni-qr-element'));
 })
