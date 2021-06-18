@@ -27,7 +27,23 @@ window.addEventListener('load', (event) => {
   qrEl.style.justifyContent = 'center';
   qrEl.style.alignItems = 'center';
 
+  qrEl.style.transition = 'opacity 0.5s';
   qrEl.style.zIndex = '1000';
+
+  // when mouse is hovered over 
+  let css = `
+    #omni-qr-element { opacity: 0.8; }
+    #omni-qr-element:hover { opacity: 0.1; }
+  `;
+  let style = document.createElement('style');
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    style.appendChild(document.createTextNode(css));
+  }
+
+  document.getElementsByTagName('head')[0].appendChild(style);
 
   // append placeholder element to the end of the body
   document.body.appendChild(qrEl);
