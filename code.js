@@ -24,8 +24,8 @@ window.addEventListener('load', (event) => {
 
   generateNewQrCode();
 
-  // update the qr code when the URL changes
-  setInterval(() => {
-    generateNewQrCode()
-  }, 10000);
+  // TODO: update the qr code when the URL changes
+  // setInterval(() => {
+  //   generateNewQrCode()
+  // }, 10);
 })
