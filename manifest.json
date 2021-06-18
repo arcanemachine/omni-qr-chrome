@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Omni QR Code",
-  "description": "Always display the QR code of your current tab in a corner of the screen. Perfect for streamers!",
+  "name": "Omni QR Display",
+  "description": "Always display the QR code of your current tab in a corner of the screen. Perfect for streaming web browser sessions!",
   "version": "0.0.1",
   "icons": {
     "16": "icon16.png",
