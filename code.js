@@ -18,6 +18,17 @@ window.addEventListener('load', (event) => {
   let qrEl = document.createElement('div');
   qrEl.id = "omni-qr-element";
 
+  // add CSS styles
+  qrEl.style.position = 'fixed';
+  qrEl.style.bottom = '1.5rem';
+  qrEl.style.right = '1.5rem';
+
+  qrEl.style.display = 'flex';
+  qrEl.style.justifyContent = 'center';
+  qrEl.style.alignItems = 'center';
+
+  qrEl.style.zIndex = '1000';
+
   // append placeholder element to the end of the body
   document.body.appendChild(qrEl);
 

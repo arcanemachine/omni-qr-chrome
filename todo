@@ -1,11 +1,13 @@
 - qr code element style
   - no pointer events
-  - set opacity on hover
+  - set opacity
+    - no hover
+    - hover
   - position fixed
     - bottom right
 
 - TODO: shorten url if length too long
-  - max length for qrcode.min.js: 1227 chars
+  - max length for qrcode.min.js: 1270 chars
 
 /* TODO: set options:
   - enable/disable
