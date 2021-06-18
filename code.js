@@ -2,15 +2,20 @@ function generateNewQrCode(el) {
   // clear the element's content
   el.innerHTML = '';
 
-  // generate QR code and insert into DOM element
-  new QRCode(document.getElementById(el.id), {
-      text: window.location.href,
-      width: 250,
-      height: 250,
-      colorDark : "#000000",
-      colorLight : "#ffffff",
-      correctLevel : QRCode.CorrectLevel.H
-  });
+  if (window.location.href.length < 1270) {
+    // generate QR code and insert into DOM element
+    new QRCode(document.getElementById(el.id), {
+        text: window.location.href,
+        width: 250,
+        height: 250,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+    });
+  } else {
+    // generate message if URL is too long
+    el.innerHTML = "<h2>URL too long for QR code!</h2>";
+  }
 }
 
 window.addEventListener('load', (event) => {
