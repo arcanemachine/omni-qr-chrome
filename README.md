@@ -6,6 +6,10 @@ A minimalist, privacy-friendly Chrome extension that always displays a QR code i
 
 Perfect for streamers who use a web browser while streaming!
 
+The following settings can be adjusted from the popup window:
+  - Enable/disable extension
+  - Change QR code image size
+
 ## How to Use
 
 After installing the extension, a QR code will appear on the bottom-right corner of every URL you visit. If the URL changes, the QR code will be regenerated.
