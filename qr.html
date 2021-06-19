@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Omni QR Settings</title>
+    <title>OmniQR Code Viewer Settings</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h1 class="title">Omni QR Display</h1>
+    <h1 class="title">
+      <img src="icon16.png" class="title-icon">OmniQR Settings
+    </h1>
 
     <div class="settings-item-container-parent">
 
       <div class="settings-item-container-child">
         <div class="settings-item-description">
-          Enabled
+          Enable this extension
         </div>
         <div class="settings-item-value">
           <button id="extension-enabled">
@@ -22,7 +24,7 @@
 
       <div class="settings-item-container-child">
         <div class="settings-item-description">
-          Image Size
+          Image size
         </div>
         <div class="settings-item-value">
           <select name="image-size" id="image-size">
@@ -40,6 +42,10 @@
         </div>
       </div>
 
+    </div>
+
+    <div class="promo-link">
+      This extension is <a href="https://github.com/arcanemachine/omni-qr-chrome" target="_blank">open source</a> and 100% privacy-friendly!
     </div>
 
     <script src="popup.js"></script>

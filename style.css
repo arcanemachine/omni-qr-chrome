@@ -5,6 +5,11 @@ body {
 h1 {
   font-size: 1.2rem;
   text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.title-icon {
+  margin-right: 0.5rem;
 }
 
 .settings-item-container-parent {
@@ -26,4 +31,11 @@ h1 {
 
 .settings-item-value {
   margin-right: 1rem;
+}
+
+.promo-link {
+  max-width: 12rem;
+  margin: 1.5rem auto 1rem;
+
+  text-align: center;
 }

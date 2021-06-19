@@ -1,6 +1,4 @@
-// deleteme
-
-
+// default settings
 let extensionEnabled = true;
 let imageSize = 300;
 

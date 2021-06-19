@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Omni QR Display",
+  "name": "OmniQR Code Viewer",
   "description": "Always display the QR code of your current tab in a corner of the screen. Perfect for streaming web browser sessions!",
   "version": "0.0.1",
   "icons": {
