@@ -1,4 +1,4 @@
-# OmniQR Code Viewer
+# OmniQR Code Viewer (Chrome Extension)
 
 A minimalist, privacy-friendly Chrome extension that always displays a QR code in the corner of your browser window.
 
