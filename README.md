@@ -31,3 +31,6 @@ All data is rendered entirely within the browser. This extension does not contac
 ## Acknowledgments
 
 This project uses [QRCode.js](https://github.com/davidshimjs/qrcodejs) for its QR code rendering.
+
+
+![OmniQR Screenshot](/assets/screenshot.png "Screenshot")
