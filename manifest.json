@@ -13,7 +13,6 @@
     "default_popup": "qr.html"
   },
   "permissions": [
-    "activeTab",
     "storage"
   ],
   "content_scripts": [{
