@@ -1,3 +1,6 @@
+/* eslint no-unused-vars: 0 */
+/* eslint no-undef: 0 */
+
 // extensionEnabled
 const extensionEnabledEl = document.querySelector('#extension-enabled');
 

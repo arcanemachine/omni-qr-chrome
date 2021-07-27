@@ -1,3 +1,5 @@
+/* eslint no-undef: 0 */
+
 let omniQrExtensionEnabled;
 let omniQrImageSize;
 let omniQrImageEl;
