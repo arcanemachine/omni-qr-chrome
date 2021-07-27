@@ -1,5 +1,9 @@
 # OmniQR Code Viewer (Chrome Extension)
 
+[Download from Chrome Web Store](https://chrome.google.com/webstore/detail/omniqr-code-viewer/didcdogjdhcnoidgccdigbgmdimhigoa)
+
+___
+
 ![OmniQR Screenshot](/assets/screenshot.png "Screenshot")
 
 A minimalist, privacy-friendly Chrome extension that always displays a QR code in the corner of your browser window.
