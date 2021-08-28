@@ -146,7 +146,7 @@ function temporarilyHideQrCode(el) {
       setTimeout(() => {
         el.style.opacity = '';
       }, 500);
-    }, 3000);
+    }, 999999);
   }, 500);
 }
 
