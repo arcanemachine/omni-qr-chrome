@@ -16,6 +16,8 @@ The following settings can be adjusted from the popup window:
 
 ## How to Use
 
+###[Download from Chrome Web Store](https://chrome.google.com/webstore/detail/omniqr-code-viewer/didcdogjdhcnoidgccdigbgmdimhigoa)
+
 After installing the extension, a QR code will appear on the bottom-right corner of every URL you visit. If the URL changes, the QR code will be regenerated.
 
 While the mouse is hovering over the QR code, it will become transparent so you can see the content beneath it.
